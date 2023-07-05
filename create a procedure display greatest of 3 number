@@ -1,0 +1,16 @@
+declare
+a number :=1;
+b number :=2;
+c number :=3;
+begin
+if a>b
+and a>c then
+dbms_output.put_line('greatest number is'||a);
+elsif b>a
+and b>c then
+dbms_output.put_line('greatest number is'||b);
+else
+dbms_output.put_line('greatest number is'||c);
+end if;
+end;
+/
